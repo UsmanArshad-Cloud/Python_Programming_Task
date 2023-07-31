@@ -1,3 +1,5 @@
+from functools import reduce
+from collections import defaultdict
 Persons = [
     {"Name": "Ali", "FatherName": "Khan", "Age": 30, "Location": "Gulberg"},
     {"Name": "Sara", "FatherName": "Ahmed", "Age": 27, "Location": "Defence"},
@@ -12,16 +14,18 @@ Persons = [
 ]
 
 
-def GroupByFunc(list):
+def GroupByFunc(list,key):
     output_list = {}
     for item in list:
-        if output_list.keys().__contains__(item["Location"]):
-            output_list[item["Location"]].append(item)
+        if output_list.keys().__contains__(item[key]):
+            output_list[item[key]].append(item)
         else:
-            output_list[item["Location"]] = []
-            output_list[item["Location"]].append(item)
+            output_list[item[key]] = []
+            output_list[item[key]].append(item)
     return output_list
 
 
-final_result = GroupByFunc(Persons)
-print(final_result)
+key = input("Enter the key to group the records: ")
+final_result = GroupByFunc(Persons, key)
+final_result2 = reduce(lambda output_list, record: output_list[record["Location"]].append(record) or output_list if record["Location"] in output_list else output_list.update({record['Location']: [record]}) or output_list, Persons, defaultdict(list))
+print(final_result2)

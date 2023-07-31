@@ -15,10 +15,11 @@ def Power_Recursive_n(base,exponent):
 
 print(Power_Recursive_n(2,5))
 
+
 def Power_Recursive_logn(base,exponent):
-    if exponent==0:
+    if exponent == 0:
         return 1
-    if exponent%2==0:
+    if exponent%2 == 0:
         return Power_Recursive_logn(base,exponent/2)*Power_Recursive_logn(base,exponent/2)
     else:
         return base*Power_Recursive_logn(base,exponent-1)
