@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ede512a0-2371-48bf-a929-16fc0d90761a" name="Changes" comment="" />
+    <list default="true" id="ede512a0-2371-48bf-a929-16fc0d90761a" name="Changes" comment="Adding tasks files">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Binary_Operators.py" beforeDir="false" afterPath="$PROJECT_DIR$/Binary_Operators.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -33,7 +36,8 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "D:/Usman Arshad/Hangman"
+    "git-widget-placeholder": "feaure-tasks",
+    "last_opened_file_path": "D:/Usman Arshad/Python_Programming_Task"
   }
 }]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -45,6 +49,19 @@
       <option name="presentableId" value="Default" />
       <updated>1690549714350</updated>
     </task>
+    <task id="LOCAL-00001" summary="Adding tasks files">
+      <option name="closed" value="true" />
+      <created>1690805112041</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1690805112041</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Adding tasks files" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding tasks files" />
   </component>
 </project>
