@@ -30,3 +30,11 @@ final_result = GroupByFunc(Persons, key)
 print(f"By using Simple Function {final_result}")
 
 
+def function(output_list, record):
+    return output_list[record["Location"]].append(record) or output_list if record["Location"] in output_list\
+        else output_list.update(
+        {record["Location"]: [record]}) or output_list
+
+
+final_result2 = reduce(function, Persons, defaultdict(dict))
+print(f"Using Reduce Function{final_result2}")

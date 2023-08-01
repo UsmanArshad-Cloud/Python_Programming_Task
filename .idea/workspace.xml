@@ -6,9 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="ede512a0-2371-48bf-a929-16fc0d90761a" name="Changes" comment="Adding tasks files">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Enums_and_Switches.py" beforeDir="false" afterPath="$PROJECT_DIR$/Enums_and_Switches.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Binary_Operators.py" beforeDir="false" afterPath="$PROJECT_DIR$/Binary_Operators.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Group_By.py" beforeDir="false" afterPath="$PROJECT_DIR$/Group_By.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Power_Recrsion.py" beforeDir="false" afterPath="$PROJECT_DIR$/Power_Recrsion.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Map_Task.py" beforeDir="false" afterPath="$PROJECT_DIR$/Map_Task.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
