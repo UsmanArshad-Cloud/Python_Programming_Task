@@ -53,5 +53,18 @@ def return_set_bits(n):
     return one_count
 
 
-count = return_set_bits(10)
-print(count)
+def return_set_bits_using_shift(n):
+    result = n
+    ones_count = 0
+    while result != 0:
+        result_bit = bin(result)
+        if result_bit[-1] == '1':
+            ones_count += 1
+        result = result >> 1
+    return ones_count
+
+
+# count = return_set_bits(10)
+input_val = int(input("Give Number in Decimal"))
+count2=return_set_bits_using_shift(input_val)  # 4
+print(f"Count of set bits in {input_val} is {count2}")
