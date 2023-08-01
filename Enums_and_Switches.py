@@ -12,7 +12,7 @@ class Variables(Enum):
 
 value = input("Give the abbreviated country name:")
 match value:
-    case Variables.PAK.name:
+    case Variables.PAK.value:
         print(Variables.PAK.value)
     case Variables.IND.name:
         print(Variables.IND.value)
