@@ -27,5 +27,6 @@ def GroupByFunc(list,key):
 
 key = input("Enter the key to group the records: ")
 final_result = GroupByFunc(Persons, key)
-final_result2 = reduce(lambda output_list, record: output_list[record["Location"]].append(record) or output_list if record["Location"] in output_list else output_list.update({record['Location']: [record]}) or output_list, Persons, defaultdict(list))
-print(final_result2)
+print(f"By using Simple Function {final_result}")
+
+

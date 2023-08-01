@@ -5,14 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ede512a0-2371-48bf-a929-16fc0d90761a" name="Changes" comment="Adding tasks files">
-      <change afterPath="$PROJECT_DIR$/check.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Enums_and_Switches.py" beforeDir="false" afterPath="$PROJECT_DIR$/Enums_and_Switches.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Group_By.py" beforeDir="false" afterPath="$PROJECT_DIR$/Group_By.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Map_Task.py" beforeDir="false" afterPath="$PROJECT_DIR$/Map_Task.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Polymorphism_Python.py" beforeDir="false" afterPath="$PROJECT_DIR$/Polymorphism_Python.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Power_Recrsion.py" beforeDir="false" afterPath="$PROJECT_DIR$/Power_Recrsion.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Primary_Numbers.py" beforeDir="false" afterPath="$PROJECT_DIR$/Primary_Numbers.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,13 +35,13 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "feaure-tasks",
-    "last_opened_file_path": "D:/Usman Arshad/Python_Programming_Task"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;feaure-tasks&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Usman Arshad/Python_Programming_Task&quot;
   }
-}]]></component>
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">

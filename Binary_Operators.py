@@ -30,28 +30,3 @@ def multiply_number_by_10_using_shift(num):
 # multiply_number_by_10_using_shift(10)
 
 
-"""
-we need to write a program where we can return the set bits of a number
-100= set bids is 1
-1010 = set bids 2
-we need to pass an integer number and we will return the set bits count of that number binary
-"""
-
-
-def return_set_bits(n):
-    binary = bin(n)
-    parsed_binary = binary[2:]
-    print(f"Binary Representation of the given integer is {parsed_binary}")
-    index = 0
-    one_count = 0
-    if parsed_binary[0] == '1':
-        one_count += 1
-    while index != -1:
-        index = parsed_binary.find("1", index + 1, len(parsed_binary))
-        if index != -1:
-            one_count += 1
-    return one_count
-
-
-count = return_set_bits(10)
-print(count)

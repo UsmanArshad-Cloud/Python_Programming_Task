@@ -9,7 +9,7 @@ class Variables(Enum):
     BAN = "BANGLADESH"
     NZ = "NEWZEALAND"
 
-print(Variables.PAK)
+
 value = input("Give the abbreviated country name:")
 match value:
     case Variables.PAK.value:
